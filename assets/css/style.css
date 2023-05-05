@@ -11,6 +11,10 @@ body {
     font-size: 110%;
 }
 
+body p {
+    font-size: 110%;
+}
+
 h1, h2 {
     font-family: 'Bree Serif', sans-serif;
     letter-spacing: 2px;
@@ -84,6 +88,7 @@ header {
 
 #hero-text a {
     text-decoration: none;
+    font-size: 110%;
 }
 
 #hero-btn {
@@ -96,4 +101,15 @@ header {
     border-radius: 25px;
     background-color: #112378;
     padding: 10px;
+}
+
+#hero-image {
+    height: 600px;
+    width: 50%;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+    background-size: contain;
+    overflow: hidden;
+    float: right;
+    margin-right: 10%;
+    padding-top: 10px;
 }

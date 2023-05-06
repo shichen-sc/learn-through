@@ -299,3 +299,14 @@ header {
     right: 1rem;
     background: url('../images/angle-right-solid.svg') no-repeat center center;
 }
+
+/* video */
+#video_outer {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#iframe {
+    border-radius: 20px;
+}

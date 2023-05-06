@@ -310,3 +310,51 @@ header {
 #iframe {
     border-radius: 20px;
 }
+
+/* footer */
+footer {
+    height: 245px;
+    background-color: #112378;
+    margin-top: 75px;
+}
+
+#logo_footer {
+    font-family: 'Lilita One';
+    font-size: 250%;
+    color: #FFFFF0;
+    text-align: center;
+    line-height: 75px;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 110%;
+}
+
+#footer-btn {
+    width: 100px;
+    height: auto;
+    color: #112378;
+    text-align: center;
+    font-weight: bolder;
+    border: solid #FFFFF0;
+    border-radius: 25px;
+    background-color: #FFFFF0;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 0 auto;
+    padding: 40px;
+    color: #FFFFF0;
+}

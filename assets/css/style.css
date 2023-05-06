@@ -25,6 +25,13 @@ hr {
     margin: 20px 0;
 }
 
+.section-heading {
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    clear: both;
+}
+
 /* logo and navigation bar */
 header {
     height: 75px;
@@ -113,3 +120,53 @@ header {
     margin-right: 10%;
     padding-top: 10px;
 }
+
+/* feature section */
+#feature-outer {
+    width: 100%;
+    height: auto;
+}
+
+.feature-left {
+    width: 35%;
+    height: 50%;
+    float: left;
+    clear: left;
+    margin-left: 15%;
+}
+
+.feature-right {
+    width: 35%;
+    height: 50%;
+    float: right;
+    clear: right;
+    margin-right: 15%;
+}
+
+#feature-outer img {
+    max-width: 80%;
+}
+
+.feature-left-heading {
+    max-width: 80%;
+    line-height: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.feature-right-heading {
+    max-width: 80%;
+    line-height: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.feature-left h2 {
+    font-size: 200%;
+}
+
+.feature-right h2 {
+    font-size: 200%;
+}
+
+/*  */

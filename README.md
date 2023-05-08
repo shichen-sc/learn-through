@@ -43,3 +43,23 @@ Users will be able to find the main features of the platform: AI-driven conversa
     - The footer contains again a clickable anchor that directs the user to the next page where they should select the desired language and level (currently not implemented yet).
     - The footer contains the social media links of the platform, facebook, twitter, youtube, instagram. (As of there is no official link yet, the landing page of each is being used)
     ![A screenshot of the footer](/assets/images/README/footer.png)
+
+## Testing
+
+- I tested and confirmed that the page works in browsers: Chrome, Firefox.
+- I confirm that this project is responsive.
+
+## Bugs
+
+### Solved bugs
+- When the screen width is smaller as 950px, the anchor element in the header is not clickable.
+    - The issue is that the hero image overlaps with the anchor. To solve, z-index: 1 is being added to the style for this anchor element.
+    ```
+    #hero-text {
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        clear: left;
+        z-index: 1;
+    }
+    ```

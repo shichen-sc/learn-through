@@ -463,6 +463,7 @@ footer a {
         left: 50%;
         transform: translate(-50%, -20%);
         clear: left;
+        z-index: 1;
     }
 
     #hero-image {
